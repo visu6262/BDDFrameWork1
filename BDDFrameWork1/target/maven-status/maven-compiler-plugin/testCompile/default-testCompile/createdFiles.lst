@@ -1,4 +1,5 @@
 PageFactoryModel\BasePage.class
 StepDefinition\LoginSteps2.class
-TestRunner\CucumberTestRunner.class
 PageFactoryModel\LoginPage.class
+StepDefinition\BaseSteps.class
+TestRunner\CucumberTestRunner.class

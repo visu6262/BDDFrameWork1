@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
@@ -27,13 +28,15 @@ public class LoginSteps2 extends BaseSteps
 	@Before
 	public void setup() throws IOException
 	{
-				
+		log=LogManager.getLogger(this.getClass());
 //		FileReader reader=new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties");
 		FileReader reader=new FileReader("./src/test/resources/config.properties");
 		prop=new Properties();
 		prop.load(reader);
 		
+		log.info("*** 1 Web Browser Opening ***");
 		driver = new ChromeDriver();
+		log.info("*** 2 Maximizeing Web Browser ***");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	
@@ -55,6 +58,7 @@ public class LoginSteps2 extends BaseSteps
 //		driver.manage().window().maximize();
 //		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 //		driver.get("https://www.saucedemo.com/");
+		log.info("*** 3 Opeing Sausedemo url ***");
 		driver.get(prop.getProperty("url_saucedemo"));
 //		System.out.println(prop.getProperty("url_saucedemo"));
 	    
@@ -64,9 +68,11 @@ public class LoginSteps2 extends BaseSteps
 	@And("user enter valid {string} and {string}")
 	public void user_enter_valid_and(String username, String password) throws InterruptedException
 	{
+		log.info("*** 4 Entering Username ***");
 		lp=new LoginPage(driver);
 		lp.get_username(username);
 		Thread.sleep(1000);
+		log.info("*** 5 Entering Password ***");
 		lp.get_password(password);
 		Thread.sleep(1000);
 		
@@ -80,6 +86,7 @@ public class LoginSteps2 extends BaseSteps
 
 	@And("user click on login Button")
 	public void user_click_on_login_button() {
+		log.info("*** 6 Click on login Button ***");
 		lp.click_login();
 //		driver.findElement(By.xpath("//input[@id='login-button']")).click();
 	 
@@ -87,6 +94,7 @@ public class LoginSteps2 extends BaseSteps
 
 	@Then("login must be successful.")
 	public void login_must_be_successful() {
+		log.info("*** 7 Verify login success ***");
 		Assert.assertTrue(lp.verify_logo());
 //		Assert.assertTrue(driver.findElement(By.xpath("//div[@class='app_logo']")).isDisplayed());
 	   
@@ -94,6 +102,7 @@ public class LoginSteps2 extends BaseSteps
 
 	@And("close browser")
 	public void close_browser() {
+		log.info("*** 8 Closeing Browser ***");
 		driver.quit();
 	    
 	}

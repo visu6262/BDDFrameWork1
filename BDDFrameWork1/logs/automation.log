@@ -1,0 +1,72 @@
+23:00:23.084 [main] INFO  StepDefinition.LoginSteps2 {36} *** 1 Web Browser Opening ***
+23:00:26.289 [main] INFO  StepDefinition.LoginSteps2 {36} *** 2 Maximizeing Web Browser ***
+23:00:26.354 [main] INFO  StepDefinition.LoginSteps2 {36} *** 3 Opeing Sausedemo url ***
+23:00:26.905 [main] INFO  StepDefinition.LoginSteps2 {36} *** 4 Entering Username ***
+23:00:28.099 [main] INFO  StepDefinition.LoginSteps2 {36} *** 5 Entering Password ***
+23:00:29.236 [main] INFO  StepDefinition.LoginSteps2 {36} *** 6 Cliick on login Button ***
+23:00:29.408 [main] INFO  StepDefinition.LoginSteps2 {36} *** 7 Verify login success ***
+23:00:29.455 [main] INFO  StepDefinition.LoginSteps2 {36} *** 8 Closeing Browser ***
+23:00:29.782 [main] INFO  StepDefinition.LoginSteps2 {36} *** 1 Web Browser Opening ***
+23:00:31.052 [main] INFO  StepDefinition.LoginSteps2 {36} *** 2 Maximizeing Web Browser ***
+23:00:31.120 [main] INFO  StepDefinition.LoginSteps2 {36} *** 3 Opeing Sausedemo url ***
+23:00:31.713 [main] INFO  StepDefinition.LoginSteps2 {36} *** 4 Entering Username ***
+23:00:32.877 [main] INFO  StepDefinition.LoginSteps2 {36} *** 5 Entering Password ***
+23:00:34.012 [main] INFO  StepDefinition.LoginSteps2 {36} *** 6 Cliick on login Button ***
+23:00:34.134 [main] INFO  StepDefinition.LoginSteps2 {36} *** 7 Verify login success ***
+23:00:34.171 [main] INFO  StepDefinition.LoginSteps2 {36} *** 8 Closeing Browser ***
+23:00:34.398 [main] INFO  StepDefinition.LoginSteps2 {36} *** 1 Web Browser Opening ***
+23:00:35.621 [main] INFO  StepDefinition.LoginSteps2 {36} *** 2 Maximizeing Web Browser ***
+23:00:35.687 [main] INFO  StepDefinition.LoginSteps2 {36} *** 3 Opeing Sausedemo url ***
+23:00:36.237 [main] INFO  StepDefinition.LoginSteps2 {36} *** 4 Entering Username ***
+23:00:37.415 [main] INFO  StepDefinition.LoginSteps2 {36} *** 5 Entering Password ***
+23:00:38.550 [main] INFO  StepDefinition.LoginSteps2 {36} *** 6 Cliick on login Button ***
+23:00:38.688 [main] INFO  StepDefinition.LoginSteps2 {36} *** 7 Verify login success ***
+23:00:38.726 [main] INFO  StepDefinition.LoginSteps2 {36} *** 8 Closeing Browser ***
+23:03:56.199 [main] INFO  StepDefinition.LoginSteps2 {36} *** 1 Web Browser Opening ***
+23:03:58.019 [main] INFO  StepDefinition.LoginSteps2 {36} *** 2 Maximizeing Web Browser ***
+23:03:58.076 [main] INFO  StepDefinition.LoginSteps2 {36} *** 3 Opeing Sausedemo url ***
+23:03:58.672 [main] INFO  StepDefinition.LoginSteps2 {36} *** 4 Entering Username ***
+23:03:59.861 [main] INFO  StepDefinition.LoginSteps2 {36} *** 5 Entering Password ***
+23:04:01.005 [main] INFO  StepDefinition.LoginSteps2 {36} *** 6 Click on login Button ***
+23:04:01.176 [main] INFO  StepDefinition.LoginSteps2 {36} *** 7 Verify login success ***
+23:04:01.225 [main] INFO  StepDefinition.LoginSteps2 {36} *** 8 Closeing Browser ***
+23:04:01.451 [main] INFO  StepDefinition.LoginSteps2 {36} *** 1 Web Browser Opening ***
+23:04:02.739 [main] INFO  StepDefinition.LoginSteps2 {36} *** 2 Maximizeing Web Browser ***
+23:04:02.822 [main] INFO  StepDefinition.LoginSteps2 {36} *** 3 Opeing Sausedemo url ***
+23:04:03.418 [main] INFO  StepDefinition.LoginSteps2 {36} *** 4 Entering Username ***
+23:04:04.583 [main] INFO  StepDefinition.LoginSteps2 {36} *** 5 Entering Password ***
+23:04:05.691 [main] INFO  StepDefinition.LoginSteps2 {36} *** 6 Click on login Button ***
+23:04:05.827 [main] INFO  StepDefinition.LoginSteps2 {36} *** 7 Verify login success ***
+23:04:05.861 [main] INFO  StepDefinition.LoginSteps2 {36} *** 8 Closeing Browser ***
+23:04:06.048 [main] INFO  StepDefinition.LoginSteps2 {36} *** 1 Web Browser Opening ***
+23:04:07.163 [main] INFO  StepDefinition.LoginSteps2 {36} *** 2 Maximizeing Web Browser ***
+23:04:07.225 [main] INFO  StepDefinition.LoginSteps2 {36} *** 3 Opeing Sausedemo url ***
+23:04:07.836 [main] INFO  StepDefinition.LoginSteps2 {36} *** 4 Entering Username ***
+23:04:09.008 [main] INFO  StepDefinition.LoginSteps2 {36} *** 5 Entering Password ***
+23:04:10.144 [main] INFO  StepDefinition.LoginSteps2 {36} *** 6 Click on login Button ***
+23:04:10.294 [main] INFO  StepDefinition.LoginSteps2 {36} *** 7 Verify login success ***
+23:04:10.326 [main] INFO  StepDefinition.LoginSteps2 {36} *** 8 Closeing Browser ***
+23:16:14.678 [main] INFO  StepDefinition.LoginSteps2 {36} *** 1 Web Browser Opening ***
+23:16:16.537 [main] INFO  StepDefinition.LoginSteps2 {36} *** 2 Maximizeing Web Browser ***
+23:16:16.595 [main] INFO  StepDefinition.LoginSteps2 {36} *** 3 Opeing Sausedemo url ***
+23:16:17.160 [main] INFO  StepDefinition.LoginSteps2 {36} *** 4 Entering Username ***
+23:16:18.356 [main] INFO  StepDefinition.LoginSteps2 {36} *** 5 Entering Password ***
+23:16:19.490 [main] INFO  StepDefinition.LoginSteps2 {36} *** 6 Click on login Button ***
+23:16:19.635 [main] INFO  StepDefinition.LoginSteps2 {36} *** 7 Verify login success ***
+23:16:19.673 [main] INFO  StepDefinition.LoginSteps2 {36} *** 8 Closeing Browser ***
+23:16:19.870 [main] INFO  StepDefinition.LoginSteps2 {36} *** 1 Web Browser Opening ***
+23:16:21.004 [main] INFO  StepDefinition.LoginSteps2 {36} *** 2 Maximizeing Web Browser ***
+23:16:21.065 [main] INFO  StepDefinition.LoginSteps2 {36} *** 3 Opeing Sausedemo url ***
+23:16:21.693 [main] INFO  StepDefinition.LoginSteps2 {36} *** 4 Entering Username ***
+23:16:22.867 [main] INFO  StepDefinition.LoginSteps2 {36} *** 5 Entering Password ***
+23:16:23.988 [main] INFO  StepDefinition.LoginSteps2 {36} *** 6 Click on login Button ***
+23:16:24.115 [main] INFO  StepDefinition.LoginSteps2 {36} *** 7 Verify login success ***
+23:16:24.153 [main] INFO  StepDefinition.LoginSteps2 {36} *** 8 Closeing Browser ***
+23:16:24.328 [main] INFO  StepDefinition.LoginSteps2 {36} *** 1 Web Browser Opening ***
+23:16:25.408 [main] INFO  StepDefinition.LoginSteps2 {36} *** 2 Maximizeing Web Browser ***
+23:16:25.455 [main] INFO  StepDefinition.LoginSteps2 {36} *** 3 Opeing Sausedemo url ***
+23:16:26.041 [main] INFO  StepDefinition.LoginSteps2 {36} *** 4 Entering Username ***
+23:16:27.186 [main] INFO  StepDefinition.LoginSteps2 {36} *** 5 Entering Password ***
+23:16:28.320 [main] INFO  StepDefinition.LoginSteps2 {36} *** 6 Click on login Button ***
+23:16:28.443 [main] INFO  StepDefinition.LoginSteps2 {36} *** 7 Verify login success ***
+23:16:28.470 [main] INFO  StepDefinition.LoginSteps2 {36} *** 8 Closeing Browser ***
