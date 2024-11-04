@@ -1,32 +1,62 @@
 package StepDefinition;
 
+import java.io.FileReader;
+import java.io.IOException;
 import java.time.Duration;
+import java.util.Properties;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 import PageFactoryModel.LoginPage;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
 
 
-public class LoginSteps2 
+public class LoginSteps2 extends BaseSteps
 {
 	
-	static WebDriver driver;
 	
-	LoginPage lp;
-			
-	@Given("user navigates to the website saucedemo.com")
-	public void user_navigates_to_the_website_saucedemo_com() {
+//	WebDriver driver;
+//	LoginPage lp;
+	
+	
+	@Before
+	public void setup() throws IOException
+	{
+				
+//		FileReader reader=new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties");
+		FileReader reader=new FileReader("./src/test/resources/config.properties");
+		prop=new Properties();
+		prop.load(reader);
+		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://www.saucedemo.com/");
+	
+	}
+
+
+	
+//	@Given("user navigates to the website {string}")
+//	public void user_navigates_to_the_website(String url_name) {
+//		driver = new ChromeDriver();
+//		driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//		driver.get(url_name);
+//	}
+			
+	@Given("user navigates to the website https:www.saucedemo.com")
+	public void user_navigates_to_the_website_saucedemo_com() {
+//		driver = new ChromeDriver();
+//		driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//		driver.get("https://www.saucedemo.com/");
+		driver.get(prop.getProperty("url_saucedemo"));
+//		System.out.println(prop.getProperty("url_saucedemo"));
 	    
 	}
 

@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(tags="",
-features= {"Features"},
+features= {"Features\\login.feature"},
 glue= {"StepDefinition"},
 plugin= {"pretty","html:target/htmlreport.html"})
 
