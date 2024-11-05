@@ -7,6 +7,8 @@ import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
 import PageFactoryModel.LoginPage;
@@ -35,7 +37,36 @@ public class LoginSteps2 extends BaseSteps
 		prop.load(reader);
 		
 		log.info("*** 1 Web Browser Opening ***");
-		driver = new ChromeDriver();
+		String br=prop.getProperty("browser");
+		
+		switch(br.toLowerCase())
+		{
+		case "chrome": driver = new ChromeDriver(); break;
+		case "edge" : driver = new EdgeDriver(); break;
+		case "firefox" : driver = new FirefoxDriver(); break;
+		default : System.out.println("plz give valid browser name"); return;
+		}
+		
+		/*
+		if(br.toLowerCase().equals("chrome"))
+		{
+			driver = new ChromeDriver();
+		}
+		else if (br.toLowerCase().equals("edge"))
+		{
+			driver = new EdgeDriver();
+		}
+		else if (br.toLowerCase().equals("firefox"))
+		{
+			driver = new FirefoxDriver();
+		}
+		else
+		{
+			System.out.println("plz give valid browser name");
+			
+		}
+		*/
+		
 		log.info("*** 2 Maximizeing Web Browser ***");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
