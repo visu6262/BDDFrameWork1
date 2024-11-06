@@ -102,10 +102,10 @@ public class LoginSteps2 extends BaseSteps
 		log.info("*** 4 Entering Username ***");
 		lp=new LoginPage(driver);
 		lp.get_username(username);
-		Thread.sleep(10000);
+		Thread.sleep(1000);
 		log.info("*** 5 Entering Password ***");
 		lp.get_password(password);
-		Thread.sleep(10000);
+		Thread.sleep(1000);
 		
 		/*
 		driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys(username);
