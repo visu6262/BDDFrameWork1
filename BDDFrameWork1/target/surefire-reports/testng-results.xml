@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-05T23:48:11 IST" name="Surefire suite" finished-at="2024-11-05T23:48:18 IST" duration-ms="7132">
+  <suite started-at="2024-11-06T13:24:36 IST" name="Surefire suite" finished-at="2024-11-06T13:25:09 IST" duration-ms="32630">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@72a7c7e0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-11-05T23:48:11 IST" name="Surefire test" finished-at="2024-11-05T23:48:18 IST" duration-ms="7132">
+    <test started-at="2024-11-06T13:24:36 IST" name="Surefire test" finished-at="2024-11-06T13:25:09 IST" duration-ms="32630">
       <class name="TestRunner.CucumberTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.CucumberTestRunner@72a7c7e0]" started-at="2024-11-05T23:48:11 IST" name="setUpClass" finished-at="2024-11-05T23:48:11 IST" duration-ms="637" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.CucumberTestRunner@72a7c7e0]" started-at="2024-11-06T13:24:36 IST" name="setUpClass" finished-at="2024-11-06T13:24:37 IST" duration-ms="616" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6daf7d37]]>
+                <![CDATA[org.testng.TestRunner@39909d1a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@72a7c7e0]" started-at="2024-11-05T23:48:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-05T23:48:15 IST" duration-ms="3151" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@72a7c7e0]" started-at="2024-11-06T13:24:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-06T13:24:57 IST" duration-ms="20182" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,48 +34,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'INBOOK_X1', ip: '192.168.29.185'
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'INBOOK_X1', ip: '192.168.29.185'
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at StepDefinition.LoginSteps2.setup(LoginSteps2.java:45)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@72a7c7e0]" started-at="2024-11-05T23:48:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-05T23:48:16 IST" duration-ms="1652" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@72a7c7e0]" started-at="2024-11-06T13:24:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-06T13:25:03 IST" duration-ms="5982" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,48 +50,10 @@ at StepDefinition.LoginSteps2.setup(LoginSteps2.java:45)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'INBOOK_X1', ip: '192.168.29.185'
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'INBOOK_X1', ip: '192.168.29.185'
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at StepDefinition.LoginSteps2.setup(LoginSteps2.java:45)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@72a7c7e0]" started-at="2024-11-05T23:48:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-05T23:48:18 IST" duration-ms="1577" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.CucumberTestRunner@72a7c7e0]" started-at="2024-11-06T13:25:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-06T13:25:09 IST" duration-ms="5737" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,48 +66,10 @@ at StepDefinition.LoginSteps2.setup(LoginSteps2.java:45)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'INBOOK_X1', ip: '192.168.29.185'
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: 'INBOOK_X1', ip: '192.168.29.185'
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at StepDefinition.LoginSteps2.setup(LoginSteps2.java:45)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.CucumberTestRunner@72a7c7e0]" started-at="2024-11-05T23:48:18 IST" name="tearDownClass" finished-at="2024-11-05T23:48:18 IST" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.CucumberTestRunner@72a7c7e0]" started-at="2024-11-06T13:25:09 IST" name="tearDownClass" finished-at="2024-11-06T13:25:09 IST" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
