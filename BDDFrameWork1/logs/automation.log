@@ -1,0 +1,96 @@
+2024-11-29 15:52:07.766 [main] INFO  StepDefinition.LoginSteps2 *** 1 Web Browser Opening ***
+2024-11-29 15:52:10.591 [main] INFO  StepDefinition.LoginSteps2 *** 2 Maximizeing Web Browser ***
+2024-11-29 15:52:10.641 [main] INFO  StepDefinition.LoginSteps2 *** 3 Opeing Sausedemo url ***
+2024-11-29 15:52:11.021 [main] INFO  StepDefinition.LoginSteps2 *** 4 Entering Username ***
+2024-11-29 15:52:12.506 [main] INFO  StepDefinition.LoginSteps2 *** 5 Entering Password ***
+2024-11-29 15:52:13.622 [main] INFO  StepDefinition.LoginSteps2 *** 6 Click on login Button ***
+2024-11-29 15:52:13.747 [main] INFO  StepDefinition.LoginSteps2 *** 7 Verify login success ***
+2024-11-29 15:52:13.789 [main] INFO  StepDefinition.LoginSteps2 *** 8 Closeing Browser ***
+2024-11-29 15:52:13.964 [main] INFO  StepDefinition.LoginSteps2 *** 1 Web Browser Opening ***
+2024-11-29 15:52:15.060 [main] INFO  StepDefinition.LoginSteps2 *** 2 Maximizeing Web Browser ***
+2024-11-29 15:52:15.101 [main] INFO  StepDefinition.LoginSteps2 *** 3 Opeing Sausedemo url ***
+2024-11-29 15:52:15.561 [main] INFO  StepDefinition.LoginSteps2 *** 4 Entering Username ***
+2024-11-29 15:52:16.702 [main] INFO  StepDefinition.LoginSteps2 *** 5 Entering Password ***
+2024-11-29 15:52:17.850 [main] INFO  StepDefinition.LoginSteps2 *** 6 Click on login Button ***
+2024-11-29 15:52:17.979 [main] INFO  StepDefinition.LoginSteps2 *** 7 Verify login success ***
+2024-11-29 15:52:18.013 [main] INFO  StepDefinition.LoginSteps2 *** 8 Closeing Browser ***
+2024-11-29 15:52:18.188 [main] INFO  StepDefinition.LoginSteps2 *** 1 Web Browser Opening ***
+2024-11-29 15:52:19.179 [main] INFO  StepDefinition.LoginSteps2 *** 2 Maximizeing Web Browser ***
+2024-11-29 15:52:19.232 [main] INFO  StepDefinition.LoginSteps2 *** 3 Opeing Sausedemo url ***
+2024-11-29 15:52:19.664 [main] INFO  StepDefinition.LoginSteps2 *** 4 Entering Username ***
+2024-11-29 15:52:20.837 [main] INFO  StepDefinition.LoginSteps2 *** 5 Entering Password ***
+2024-11-29 15:52:21.949 [main] INFO  StepDefinition.LoginSteps2 *** 6 Click on login Button ***
+2024-11-29 15:52:22.081 [main] INFO  StepDefinition.LoginSteps2 *** 7 Verify login success ***
+2024-11-29 15:52:22.117 [main] INFO  StepDefinition.LoginSteps2 *** 8 Closeing Browser ***
+2024-11-29 15:52:59.976 [main] INFO  StepDefinition.LoginSteps2 *** 1 Web Browser Opening ***
+2024-11-29 15:53:01.380 [main] INFO  StepDefinition.LoginSteps2 *** 2 Maximizeing Web Browser ***
+2024-11-29 15:53:01.424 [main] INFO  StepDefinition.LoginSteps2 *** 3 Opeing Sausedemo url ***
+2024-11-29 15:53:01.845 [main] INFO  StepDefinition.LoginSteps2 *** 4 Entering Username ***
+2024-11-29 15:53:03.020 [main] INFO  StepDefinition.LoginSteps2 *** 5 Entering Password ***
+2024-11-29 15:53:04.170 [main] INFO  StepDefinition.LoginSteps2 *** 6 Click on login Button ***
+2024-11-29 15:53:04.344 [main] INFO  StepDefinition.LoginSteps2 *** 7 Verify login success ***
+2024-11-29 15:53:04.390 [main] INFO  StepDefinition.LoginSteps2 *** 8 Closeing Browser ***
+2024-11-29 15:53:04.577 [main] INFO  StepDefinition.LoginSteps2 *** 1 Web Browser Opening ***
+2024-11-29 15:53:05.573 [main] INFO  StepDefinition.LoginSteps2 *** 2 Maximizeing Web Browser ***
+2024-11-29 15:53:05.627 [main] INFO  StepDefinition.LoginSteps2 *** 3 Opeing Sausedemo url ***
+2024-11-29 15:53:06.065 [main] INFO  StepDefinition.LoginSteps2 *** 4 Entering Username ***
+2024-11-29 15:53:07.221 [main] INFO  StepDefinition.LoginSteps2 *** 5 Entering Password ***
+2024-11-29 15:53:08.389 [main] INFO  StepDefinition.LoginSteps2 *** 6 Click on login Button ***
+2024-11-29 15:53:08.529 [main] INFO  StepDefinition.LoginSteps2 *** 7 Verify login success ***
+2024-11-29 15:53:08.572 [main] INFO  StepDefinition.LoginSteps2 *** 8 Closeing Browser ***
+2024-11-29 15:53:08.717 [main] INFO  StepDefinition.LoginSteps2 *** 1 Web Browser Opening ***
+2024-11-29 15:53:09.820 [main] INFO  StepDefinition.LoginSteps2 *** 2 Maximizeing Web Browser ***
+2024-11-29 15:53:09.873 [main] INFO  StepDefinition.LoginSteps2 *** 3 Opeing Sausedemo url ***
+2024-11-29 15:53:10.294 [main] INFO  StepDefinition.LoginSteps2 *** 4 Entering Username ***
+2024-11-29 15:53:11.451 [main] INFO  StepDefinition.LoginSteps2 *** 5 Entering Password ***
+2024-11-29 15:53:12.558 [main] INFO  StepDefinition.LoginSteps2 *** 6 Click on login Button ***
+2024-11-29 15:53:12.689 [main] INFO  StepDefinition.LoginSteps2 *** 7 Verify login success ***
+2024-11-29 15:53:12.725 [main] INFO  StepDefinition.LoginSteps2 *** 8 Closeing Browser ***
+2024-12-02 12:18:23.418 [main] INFO  StepDefinition.LoginSteps2 *** 1 Web Browser Opening ***
+2024-12-02 12:18:28.223 [main] INFO  StepDefinition.LoginSteps2 *** 2 Maximizeing Web Browser ***
+2024-12-02 12:18:28.264 [main] INFO  StepDefinition.LoginSteps2 *** 3 Opeing Sausedemo url ***
+2024-12-02 12:18:28.843 [main] INFO  StepDefinition.LoginSteps2 *** 4 Entering Username ***
+2024-12-02 12:18:30.013 [main] INFO  StepDefinition.LoginSteps2 *** 5 Entering Password ***
+2024-12-02 12:18:31.112 [main] INFO  StepDefinition.LoginSteps2 *** 6 Click on login Button ***
+2024-12-02 12:18:31.308 [main] INFO  StepDefinition.LoginSteps2 *** 7 Verify login success ***
+2024-12-02 12:18:31.373 [main] INFO  StepDefinition.LoginSteps2 *** 8 Closeing Browser ***
+2024-12-02 12:18:31.641 [main] INFO  StepDefinition.LoginSteps2 *** 1 Web Browser Opening ***
+2024-12-02 12:18:32.890 [main] INFO  StepDefinition.LoginSteps2 *** 2 Maximizeing Web Browser ***
+2024-12-02 12:18:32.930 [main] INFO  StepDefinition.LoginSteps2 *** 3 Opeing Sausedemo url ***
+2024-12-02 12:18:33.487 [main] INFO  StepDefinition.LoginSteps2 *** 4 Entering Username ***
+2024-12-02 12:18:34.620 [main] INFO  StepDefinition.LoginSteps2 *** 5 Entering Password ***
+2024-12-02 12:18:35.752 [main] INFO  StepDefinition.LoginSteps2 *** 6 Click on login Button ***
+2024-12-02 12:18:35.925 [main] INFO  StepDefinition.LoginSteps2 *** 7 Verify login success ***
+2024-12-02 12:18:35.974 [main] INFO  StepDefinition.LoginSteps2 *** 8 Closeing Browser ***
+2024-12-02 12:18:36.243 [main] INFO  StepDefinition.LoginSteps2 *** 1 Web Browser Opening ***
+2024-12-02 12:18:37.378 [main] INFO  StepDefinition.LoginSteps2 *** 2 Maximizeing Web Browser ***
+2024-12-02 12:18:37.415 [main] INFO  StepDefinition.LoginSteps2 *** 3 Opeing Sausedemo url ***
+2024-12-02 12:18:38.018 [main] INFO  StepDefinition.LoginSteps2 *** 4 Entering Username ***
+2024-12-02 12:18:39.136 [main] INFO  StepDefinition.LoginSteps2 *** 5 Entering Password ***
+2024-12-02 12:18:40.242 [main] INFO  StepDefinition.LoginSteps2 *** 6 Click on login Button ***
+2024-12-02 12:18:40.412 [main] INFO  StepDefinition.LoginSteps2 *** 7 Verify login success ***
+2024-12-02 12:18:40.450 [main] INFO  StepDefinition.LoginSteps2 *** 8 Closeing Browser ***
+2024-12-02 12:21:07.198 [main] INFO  StepDefinition.LoginSteps2 *** 1 Web Browser Opening ***
+2024-12-02 12:21:09.080 [main] INFO  StepDefinition.LoginSteps2 *** 2 Maximizeing Web Browser ***
+2024-12-02 12:21:09.124 [main] INFO  StepDefinition.LoginSteps2 *** 3 Opeing Sausedemo url ***
+2024-12-02 12:21:09.666 [main] INFO  StepDefinition.LoginSteps2 *** 4 Entering Username ***
+2024-12-02 12:21:10.831 [main] INFO  StepDefinition.LoginSteps2 *** 5 Entering Password ***
+2024-12-02 12:21:11.916 [main] INFO  StepDefinition.LoginSteps2 *** 6 Click on login Button ***
+2024-12-02 12:21:12.113 [main] INFO  StepDefinition.LoginSteps2 *** 7 Verify login success ***
+2024-12-02 12:21:12.171 [main] INFO  StepDefinition.LoginSteps2 *** 8 Closeing Browser ***
+2024-12-02 12:21:12.471 [main] INFO  StepDefinition.LoginSteps2 *** 1 Web Browser Opening ***
+2024-12-02 12:21:13.644 [main] INFO  StepDefinition.LoginSteps2 *** 2 Maximizeing Web Browser ***
+2024-12-02 12:21:13.679 [main] INFO  StepDefinition.LoginSteps2 *** 3 Opeing Sausedemo url ***
+2024-12-02 12:21:14.141 [main] INFO  StepDefinition.LoginSteps2 *** 4 Entering Username ***
+2024-12-02 12:21:15.291 [main] INFO  StepDefinition.LoginSteps2 *** 5 Entering Password ***
+2024-12-02 12:21:16.394 [main] INFO  StepDefinition.LoginSteps2 *** 6 Click on login Button ***
+2024-12-02 12:21:16.589 [main] INFO  StepDefinition.LoginSteps2 *** 7 Verify login success ***
+2024-12-02 12:21:16.630 [main] INFO  StepDefinition.LoginSteps2 *** 8 Closeing Browser ***
+2024-12-02 12:21:16.872 [main] INFO  StepDefinition.LoginSteps2 *** 1 Web Browser Opening ***
+2024-12-02 12:21:17.916 [main] INFO  StepDefinition.LoginSteps2 *** 2 Maximizeing Web Browser ***
+2024-12-02 12:21:17.954 [main] INFO  StepDefinition.LoginSteps2 *** 3 Opeing Sausedemo url ***
+2024-12-02 12:21:18.428 [main] INFO  StepDefinition.LoginSteps2 *** 4 Entering Username ***
+2024-12-02 12:21:19.549 [main] INFO  StepDefinition.LoginSteps2 *** 5 Entering Password ***
+2024-12-02 12:21:20.633 [main] INFO  StepDefinition.LoginSteps2 *** 6 Click on login Button ***
+2024-12-02 12:21:20.809 [main] INFO  StepDefinition.LoginSteps2 *** 7 Verify login success ***
+2024-12-02 12:21:20.847 [main] INFO  StepDefinition.LoginSteps2 *** 8 Closeing Browser ***
