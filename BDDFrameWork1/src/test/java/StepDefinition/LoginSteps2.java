@@ -23,8 +23,8 @@ public class LoginSteps2 extends BaseSteps
 {
 	
 	
-//	WebDriver driver;
-//	LoginPage lp;
+//	WebDriver driver; 
+//	LoginPage lp; //come form BaseSteps
 	
 	
 	@Before
